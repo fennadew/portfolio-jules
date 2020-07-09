@@ -21,7 +21,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tag", name: "tag", widget: "string"}
-      - {label: "Description", name: "markdown", widget: "text"}
+      - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Awwwards", name: "awwwards", widget: "list"}
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Commisioned by", name: "commisioned-by", widget: "string"}
@@ -35,5 +35,4 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
           - {label: About, name: about, widget: markdown}
