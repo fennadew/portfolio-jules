@@ -1,5 +1,5 @@
 ---
-templateKey: project-post
+templateKey: project-page
 title: Open Wear
 tag: Platform design
 description: >-
