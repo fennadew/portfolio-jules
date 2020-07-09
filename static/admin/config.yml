@@ -21,8 +21,10 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tag", name: "tag", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "markdown", widget: "text"}
       - {label: "Awwwards", name: "awwwards", widget: "list"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Commisioned by", name: "commisioned-by", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
 
   - name: "pages"
