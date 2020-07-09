@@ -18,7 +18,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-page"
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tag", name: "tag", widget: "string"}
       - {label: "Description", name: "markdown", widget: "text"}
