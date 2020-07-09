@@ -1,11 +1,11 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
-// import Layout from '../components/Layout'
+import Layout from '../components/Layout'
 // import Features from '../components/Features'
 // import Pricing from '../components/Pricing'
 // import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const ProductPageTemplate = ({
+export const ProjectPageTemplate = ({
   // image,
   // title,
   // heading,
@@ -104,11 +104,11 @@ export const ProductPageTemplate = ({
 
 
 const ProductPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  // const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      {/* <ProductPageTemplate
+      {/* <ProjectPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -123,12 +123,12 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
+// ProductPage.propTypes = {
+//   data: PropTypes.shape({
+//     markdownRemark: PropTypes.shape({
+//       frontmatter: PropTypes.object,
+//     }),
+//   }),
+// }
 
 export default ProductPage
