@@ -1,9 +1,7 @@
 ---
-templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
+templateKey: index-page
 mainpitch:
   title: Why Kaldi
   description: >
@@ -11,11 +9,6 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -51,6 +44,14 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+title: Julian Mollema “Creative” Archive 1991-2020
+about: Julian started his professional career in advertising at 17. A decade
+  later Julian finds himself building on his talent as lead designer at Build in
+  Amsterdam. In his work Julian likes to put the fun in functionality. His
+  renowned ‘E-commerce Of The Year’ cases, like Mendo and Frans Hals Museum, are
+  based on exploring the optimal balance between functionality, innovation and
+  aesthetics. I’m mostly active on
+  [Instagram](https://www.instagram.com/jul_mol_/)
 main:
   heading: Great coffee with no compromises
   description: >
@@ -67,4 +68,9 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+image: /img/home-jumbotron.jpg
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 ---
