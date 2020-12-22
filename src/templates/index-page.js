@@ -8,13 +8,12 @@ import Content, { HTMLContent } from '../components/Content'
 
 export const IndexPageTemplate = ({
   aboutComponent,
-  about,
 }) => {
   const AboutContent = aboutComponent || Content
 
  return (
     <div>
-      <AboutContent content={about} />
+      <AboutContent  />
     </div>
   )
 }
@@ -25,12 +24,12 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
+  console.log(data)
 
   return (
     <Layout>
       <IndexPageTemplate
         aboutComponent={HTMLContent}
-        about={frontmatter.about}
       />
     </Layout>
   )
@@ -49,9 +48,7 @@ export default IndexPage
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
-        about
-      }
+      html
     }
   }
 `

@@ -21,11 +21,11 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tag", name: "tag", widget: "string"}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Awwwards", name: "awwwards", widget: "list"}
+      - {label: "Awwwards", name: "awwwards", widget: "list", field: {label: "Name", name: "name", widget: "string"}}
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Commisioned by", name: "commisioned-by", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
+      - {label: "Description", name: "body", widget: "markdown"}
 
   - name: "pages"
     label: "Pages"
@@ -35,4 +35,4 @@ collections:
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: About, name: about, widget: markdown}
+          - {label: About, name: body, widget: markdown}
